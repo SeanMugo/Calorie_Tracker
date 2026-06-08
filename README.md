@@ -49,4 +49,63 @@ Calorie Tracker is a Django-powered web app that helps users monitor their daily
 
 ---
 
-## 📁 Project Structure
+
+---
+
+## ✨ Core Functionality
+
+### Add Food Items
+Users enter a food name and calorie count. Input validation ensures positive calorie values and prevents empty submissions.
+
+### View Daily Log
+All food items for the current day are displayed with timestamps, showing individual calorie counts and a running total.
+
+### Delete & Reset
+Individual items can be removed with confirmation, or the entire day's log can be reset with a single click.
+
+### Progress Tracking
+A visual progress bar shows how close users are to reaching the 2000-calorie daily goal, with percentage displayed.
+
+### Toast Notifications
+User actions trigger styled notifications (success, error, info) instead of browser alerts.
+
+---
+
+## 🖥️ Local Setup
+
+### Prerequisites
+- Python 3.8+
+- pip package manager
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/calorie-tracker.git
+cd calorie-tracker
+
+# Create virtual environment
+python -m venv myenv
+
+# Activate virtual environment
+# Windows:
+myenv\Scripts\activate
+# Mac/Linux:
+source myenv/bin/activate
+
+# Install Django
+pip install django
+
+# Run migrations
+python manage.py makemigrations
+python manage.py migrate
+
+# Create admin user (optional)
+python manage.py createsuperuser
+
+# Run development server
+python manage.py runserver
+
+📁 Project Deployment
+Live URL: 
+Repository: https://github.com/SeanMugo/Calorie_Tracker
