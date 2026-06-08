@@ -106,9 +106,10 @@ python manage.py createsuperuser
 # Run development server
 python manage.py runserver
 
+---
+
 ## 📁 Project Deployment
 
 - **Live URL:** [https://calorie-tracker-9q9i.onrender.com](https://calorie-tracker-9q9i.onrender.com)
 - **Repository:** [https://github.com/SeanMugo/Calorie_Tracker](https://github.com/SeanMugo/Calorie_Tracker)
 
----
