@@ -107,5 +107,5 @@ python manage.py createsuperuser
 python manage.py runserver
 
 📁 Project Deployment
-Live URL: 
+Live URL: https://calorie-tracker-9q9i.onrender.com
 Repository: https://github.com/SeanMugo/Calorie_Tracker
