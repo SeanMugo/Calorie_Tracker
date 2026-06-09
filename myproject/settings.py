@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'calorie_tracker',
 ]
 
+
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
